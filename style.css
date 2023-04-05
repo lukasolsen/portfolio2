@@ -9,6 +9,12 @@
    max-width: 600px;
  }
  
+ #yt p {
+   text-align: center;
+   margin: 1300;
+   
+ }
+
  #anders p {
    text-align: center;
    margin: 0 auto;
@@ -87,8 +93,12 @@ h3 {
 
 .test {
    text-align: center;
-   margin: auto 900px;
+   margin: auto 300px;
 }
 
+.test2 {
+   text-align: center;
+   margin: auto 1300;
+}
 
 
