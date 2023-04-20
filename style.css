@@ -1,11 +1,22 @@
 
- .conteiner {
-    text-align: center;
-    margin-inline: auto;
-    width: 60%;
+body {
+   background-color: #393053;
+   padding: 0;
+   margin: 0;
  }
-
+ 
+ .container {
+   text-align: center;
+ }
+ 
+ .conteiner {
+   text-align: center;
+   margin-inline: auto;
+   width: 60%;
+ }
+ 
  p {
+   text-align: center;
    max-width: 600px;
  }
  
@@ -14,102 +25,97 @@
    margin: 0 auto;
    height: 400px;
    width: 40%;
-
  }
  #yt iframe {
    width: 100%;
    height: 100%;
  }
-
+ 
  #anders {
    text-align: center;
    margin: 0 auto;
    max-width: 700px;
  }
-
+ 
  .text {
-    text-align: center;
-    margin-inline: auto;
-    width: 60%;
+   text-align: center;
+   margin-inline: auto;
+   width: 60%;
  }
-
+ 
  .pic {
-    text-align: center;
-    margin-inline: auto;
-    max-width: 570px;
+   text-align: center;
+   margin-inline: auto;
+   max-width: 570px;
  }
-
+ 
  .top {
    text-align: center;
    max-width: 8%;
    background-color: maroon;
    border-radius: 5em;
  }
-
-
-h1 {
+ 
+ h1 {
    text-align: center;
-   
-}
-
-h2 {
-   background-color: rgb(0, 0, 49);
+ }
+ 
+ h2 {
    text-align: center;
    width: 570px;
    margin: 0 auto;
    border-radius: 10em;
-}
-
-h3 {
+ }
+ 
+ h3 {
    text-align: center;
    max-width: 60%;
    margin: 0 auto;
    border-radius: 10em;
    background-color: maroon;
-}
-
-.flySpill {
-   background-color: rgb(0, 0, 49);
-   width: 10% ;
-}
-
-.AAnders {
+ }
+ 
+ .flySpill {
+   width: 10%;
+ }
+ 
+ .AAnders {
    max-width: 18%;
    text-align: center;
    margin: 0 auto;
-}
-
-.digitalKampanje {
+ }
+ 
+ .digitalKampanje {
    text-align: center;
    max-width: 15%;
    margin: 0 auto;
-}
-
-.knut {
+ }
+ 
+ .knut {
    text-align: center;
    max-width: 28%;
    margin: 0 auto;
-}
-
-.hgclogo {
+ }
+ 
+ .hgclogo {
    max-width: 300px;
    text-align: center;
    margin: 0 auto;
-}
-
-.test {
+ }
+ 
+ .test {
    text-align: center;
    margin: auto 300px;
-}
-
-.test2 {
+ }
+ 
+ .test2 {
    text-align: center;
    margin: auto 1300;
-}
-
-/* Knapp */
-
-.slider {
+ }
+ 
+ /* Knapp */
+ 
+ .slider {
    position: relative;
    max-width: 300px;
    max-height: 300px;
@@ -128,7 +134,11 @@ h3 {
  }
  
  #knapp {
- display: flex;
- position: relative;
- left: 35%;
+   display: flex;
+   position: relative;
+   left: 35%;
+ }
+ 
+ .center {
+   text-align: center;
  }
