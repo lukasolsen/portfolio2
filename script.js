@@ -13,7 +13,7 @@ function startImageSlider() {
 startImageSlider(); //bare kjør dette
 
 function handleImageChange() {
-  document.querySelectorAll("img").forEach((element) => {
+  document.querySelectorAll(".imageSpinner").forEach((element) => {
     //før vi bytter bilde fjerner vi alle bildene fra før
     element.remove();
   });
@@ -23,15 +23,26 @@ function handleImageChange() {
   const item = document.createElement("img"); //lage nytt bilde element
   item.src = imgList[currentImageIndex]; //endre kilden til bilde
 
-  document.getElementById("slider").appendChild(item); //legge til bilde
+  if (
+    document.getElementById("slider") != undefined ||
+    document.getElementById("slider") != null
+  ) {
+    document.getElementById("slider").appendChild(item); //legge til bilde
+  }
 }
 
 const nextBtn = document.getElementById("nextBtn");
-nextBtn.addEventListener("click", function (e) {
-  nextBtn.addEventListener("click", handleImageChange(currentImageIndex + 1));
-});
+
+if (nextBtn != null || nextBtn != undefined) {
+  nextBtn.addEventListener("click", function (e) {
+    nextBtn.addEventListener("click", handleImageChange(currentImageIndex + 1));
+  });
+}
 
 const backBtn = document.getElementById("backBtn");
-backBtn.addEventListener("click", function (e) {
-  backBtn.addEventListener("click", handleImageChange(currentImageIndex - 1));
-});
+
+if (backBtn != null || backBtn != undefined) {
+  backBtn.addEventListener("click", function (e) {
+    backBtn.addEventListener("click", handleImageChange(currentImageIndex - 1));
+  });
+}
